@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HarajTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="posts_list">Posts List</string>
+    <string name="post_details">Post Details</string>
+    <string name="empty_posts_text">No Posts to display</string>
 </resources>
