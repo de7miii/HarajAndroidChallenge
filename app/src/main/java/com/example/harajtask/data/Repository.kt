@@ -1,8 +1,7 @@
-package com.example.harajtask.Data
+package com.example.harajtask.data
 
 import android.content.Context
-import androidx.lifecycle.MutableLiveData
-import com.example.harajtask.Models.Post
+import com.example.harajtask.models.Post
 
 object Repository {
     val inMemData = InMemoryData()

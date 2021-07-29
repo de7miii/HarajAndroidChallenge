@@ -5,4 +5,8 @@
     <string name="posts_list">Posts List</string>
     <string name="post_details">Post Details</string>
     <string name="empty_posts_text">No Posts to display</string>
+    <string name="item_image_content_description">Item Image</string>
+    <string name="post_image_description_details_page">Post Image in description page</string>
+    <string name="post_comment_count">(%1$d)</string>
+    <string name="share_item_string">Share</string>
 </resources>

@@ -1,9 +1,9 @@
-package com.example.harajtask.ViewModels
+package com.example.harajtask.viewmodels
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData
-import com.example.harajtask.Data.Repository
-import com.example.harajtask.Models.Post
+import com.example.harajtask.data.Repository
+import com.example.harajtask.models.Post
 
 class PostsListViewModel(application: Application): BaseViewModel(application) {
     val posts = MutableLiveData<List<Post>>()

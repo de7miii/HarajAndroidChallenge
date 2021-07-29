@@ -7,16 +7,19 @@
 
     <fragment
         android:id="@+id/postsListFragment"
-        android:name="com.example.harajtask.Views.PostsListFragment"
-        android:label="fragment_posts_list"
+        android:name="com.example.harajtask.views.PostsListFragment"
         tools:layout="@layout/fragment_posts_list" >
         <action
             android:id="@+id/action_postsListFragment_to_postDetailsFragment"
-            app:destination="@id/postDetailsFragment" />
+            app:destination="@id/postDetailsFragment" >
+        </action>
     </fragment>
     <fragment
         android:id="@+id/postDetailsFragment"
-        android:name="com.example.harajtask.Views.PostDetailsFragment"
-        android:label="fragment_post_details"
-        tools:layout="@layout/fragment_post_details" />
+        android:name="com.example.harajtask.views.PostDetailsFragment"
+        tools:layout="@layout/fragment_post_details" >
+        <argument
+            android:name="post"
+            app:argType="com.example.harajtask.models.Post" />
+    </fragment>
 </navigation>

@@ -1,8 +1,8 @@
-package com.example.harajtask.Data
+package com.example.harajtask.data
 
 import android.content.Context
 import android.util.Log
-import com.example.harajtask.Models.Post
+import com.example.harajtask.models.Post
 import com.example.harajtask.getJsonString
 import org.json.JSONArray
 import org.json.JSONTokener
